@@ -570,13 +570,13 @@ def main():
     country_times_file = "country_times.csv"
     country_uniques_file = "country_uniques.csv"
 
-    # download_zip(url, zipfilename)
-    # unpack_zip(zipfilename, datafilename)
-    # database_initilization(dbname)
-    # send_to_database(datafilename, dbname, tablename)
-    # total_record_count(dbname, tablename, countsfile)
+    download_zip(url, zipfilename)
+    unpack_zip(zipfilename, datafilename)
+    database_initilization(dbname)
+    send_to_database(datafilename, dbname, tablename)
+    total_record_count(dbname, tablename, countsfile)
     times_by_country(dbname, tablename, country_times_file)
-    # uniques_by_country(dbname, tablename, country_uniques_file)
+    uniques_by_country(dbname, tablename, country_uniques_file)
 
     # make_classes()
 
