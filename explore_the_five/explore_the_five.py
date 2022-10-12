@@ -578,7 +578,7 @@ def main():
     times_by_country(dbname, tablename, country_times_file)
     uniques_by_country(dbname, tablename, country_uniques_file)
 
-    # make_classes()
+    make_classes()
 
 
 if __name__ == '__main__':
